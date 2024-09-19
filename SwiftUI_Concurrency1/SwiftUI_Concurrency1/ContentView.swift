@@ -27,12 +27,13 @@ struct ContentView: View {
                        Label("Refresh", image: "arrow.clockwise")
                     })
                 }
-                .onAppear(perform: {
-                    refresh()
-                })
+               
                 
             }
         }
+        .onAppear(perform: {
+            refresh()
+        })
     }
     func refresh() {
         Task {
@@ -55,6 +56,7 @@ struct RemoteFile<T: Decodable > {
     var contents: T {
         get async throws {
             let (data,_) = try await URLSession.noCacheSession.data(from: url)
+            print(data)
             return try JSONDecoder().decode(T.self, from: data)
         }
     }
