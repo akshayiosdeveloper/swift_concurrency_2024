@@ -13,7 +13,8 @@ struct SwiftUI_Concurrency1App: App {
         WindowGroup {
            // ContentView()
             //Sequence()
-            Task_Chapter()
+            //Task_Chapter()
+            Task_Chapter1()
         }
     }
 }
