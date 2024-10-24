@@ -14,7 +14,8 @@ struct SwiftUI_Concurrency1App: App {
            // ContentView()
             //Sequence()
             //Task_Chapter()
-            Task_Chapter1()
+           // Task_Chapter1()
+            TaskGroup()
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04E37EC2CCA1ED20022096D /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E37EB2CCA1ED20022096D /* TaskGroup.swift */; };
 		D06F509B2BC813AD00FCF69E /* SwiftUI_Concurrency1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06F509A2BC813AD00FCF69E /* SwiftUI_Concurrency1App.swift */; };
 		D06F509D2BC813AD00FCF69E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06F509C2BC813AD00FCF69E /* ContentView.swift */; };
 		D06F509F2BC813AE00FCF69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06F509E2BC813AE00FCF69E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04E37EB2CCA1ED20022096D /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
 		D06F50972BC813AD00FCF69E /* SwiftUI_Concurrency1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Concurrency1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06F509A2BC813AD00FCF69E /* SwiftUI_Concurrency1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Concurrency1App.swift; sourceTree = "<group>"; };
 		D06F509C2BC813AD00FCF69E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				D06F50A02BC813AE00FCF69E /* Preview Content */,
 				D088799D2CB6AA4800731ACE /* Task_example1.swift */,
 				D088799F2CB6AD3D00731ACE /* Task_Chapter2.swift */,
+				D04E37EB2CCA1ED20022096D /* TaskGroup.swift */,
 			);
 			path = SwiftUI_Concurrency1;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				D06F509D2BC813AD00FCF69E /* ContentView.swift in Sources */,
 				D06F509B2BC813AD00FCF69E /* SwiftUI_Concurrency1App.swift in Sources */,
 				D0B984A12CAFB4EB00A4A51A /* Task_Chapter.swift in Sources */,
+				D04E37EC2CCA1ED20022096D /* TaskGroup.swift in Sources */,
 				D0A7CE0C2C9C343700609C6F /* Sequence.swift in Sources */,
 				D088799E2CB6AA4800731ACE /* Task_example1.swift in Sources */,
 			);
